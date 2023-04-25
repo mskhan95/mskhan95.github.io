@@ -3,6 +3,9 @@
     align-items: center;
     column-gap: 4rem;
 }
+/* .section__subtitle{
+    margin-bottom: -2rem;
+} */
 
 .about__img{
     width: 350px;

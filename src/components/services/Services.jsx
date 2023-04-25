@@ -13,7 +13,7 @@ const Services = ()=>{
 
     return(
         <section className="services section" id="services">
-            <h2 className="section__title" >Projects</h2>
+            <h2 className="section__title" >PROJECTS</h2>
             <span className="section__subtitle">What I have made</span>
             <div className="services__container container grid">
                 <div className="services__content">
@@ -103,7 +103,7 @@ const Services = ()=>{
                             
                             <img className="projectmodal__img  services__modal-title" src={sephora} alt="" />
 
-                            <p className="services__modal-description">Dineout is a Online platform which used to Book Online Resturents </p>
+                            <p className="services__modal-description">Dineout is a Online platform to Book Online Resturents </p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -154,7 +154,7 @@ const Services = ()=>{
 
                             <img className="projectmodal__img  services__modal-title" src={sugar} alt="" />
 
-                            <p className="services__modal-description">Bewakoof is a e commerce platform which mainly deals with Customised Clothing</p>
+                            <p className="services__modal-description">Bewakoof is a Online Clothing Store</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">

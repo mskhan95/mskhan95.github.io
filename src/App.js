@@ -20,7 +20,7 @@ function App() {
         <Services/>
         <Contact/>
       </main>
-      <Footer/>
+     {/* / <Footer/> */}
       <Scrollup/>
     </div>
   );
