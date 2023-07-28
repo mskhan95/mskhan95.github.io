@@ -95,7 +95,7 @@
     left: 1.25rem;
     font-size: var(--small-font-size);
     padding: 0.25rem;
-    background-color: var(--body-color);
+    background-color: white;
     z-index: 10;
 }
 
