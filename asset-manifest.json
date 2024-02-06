@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b119ec0.css",
-    "main.js": "/static/js/main.099b9783.js",
+    "main.css": "/static/css/main.5c162ec4.css",
+    "main.js": "/static/js/main.b5a238b2.js",
     "static/js/787.4c6106c2.chunk.js": "/static/js/787.4c6106c2.chunk.js",
-    "static/media/fullpic.png": "/static/media/fullpic.cc4dffdde651cfd243f0.png",
     "static/media/sugar.PNG": "/static/media/sugar.9d154a193df6d7bc5df7.PNG",
     "static/media/ProfilePic.png": "/static/media/ProfilePic.2dd4f30d583d1314d5f8.png",
     "static/media/shop.PNG": "/static/media/shop.f2d2a89d6a2fa3080904.PNG",
     "static/media/sephora.PNG": "/static/media/sephora.132adf6389dce710ebaf.PNG",
-    "static/media/Mohd_Shaban_Khan_Resume.pdf": "/static/media/Mohd_Shaban_Khan_Resume.5c795b53ef160ab9ac60.pdf",
+    "static/media/Mohd_Shaban_Khan_Resume.pdf": "/static/media/Mohd_Shaban_Khan_Resume.9d282e051cd8e84a5c90.pdf",
     "static/media/chakraui.png": "/static/media/chakraui.160e9cccdccb51e794c4.png",
     "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
     "static/media/mongoose.png": "/static/media/mongoose.998152e4bc5fdd366c2c.png",
@@ -23,12 +22,12 @@
     "static/media/express.png": "/static/media/express.914793fe43d44266c184.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.7b119ec0.css.map": "/static/css/main.7b119ec0.css.map",
-    "main.099b9783.js.map": "/static/js/main.099b9783.js.map",
+    "main.5c162ec4.css.map": "/static/css/main.5c162ec4.css.map",
+    "main.b5a238b2.js.map": "/static/js/main.b5a238b2.js.map",
     "787.4c6106c2.chunk.js.map": "/static/js/787.4c6106c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b119ec0.css",
-    "static/js/main.099b9783.js"
+    "static/css/main.5c162ec4.css",
+    "static/js/main.b5a238b2.js"
   ]
 }
