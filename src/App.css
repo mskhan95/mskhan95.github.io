@@ -9,10 +9,10 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: #8D4B55;
+  --title-color: #8d4b55;
   --title-color-dark: #46262b;
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: green;
+  --body-color: rgba(244, 242, 242, 0.989);
   /* --body-color: hsl(var(--hue), var(--sat), 98%); */
   --container-color: #fff;
 
@@ -134,7 +134,7 @@ img {
 .section__subtitle {
   text-align: center;
 }
-.section__title{
+.section__title {
   margin-top: 30px;
 }
 
@@ -221,4 +221,3 @@ img {
     margin-right: var(--mb-1);
   }
 }
-
