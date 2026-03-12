@@ -1,8 +1,23 @@
 import React, { useState } from "react";
 import './header.css'
+import CV from "../../assets/Mohd_Shaban_Khan_Resume.pdf"
 
 const Header = ()=>{
     const[Toggle,showMenu] = useState(false);
+
+    const handleResumeClick = () => {
+  // open in new tab
+  window.open(CV, "_blank");
+
+  // trigger download
+  const link = document.createElement("a");
+  link.href = CV;
+  link.download = "Mohd_Shaban_khan_Resume.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
     return(
         <header className="header">
             <nav className="nav container">
@@ -39,6 +54,16 @@ const Header = ()=>{
                             <a href="#contact" className="nav__link">
                                 <i className="uil uil-message nav__icon"></i> CONTACT
                             </a>
+                        </li>
+                        {/* <li className="nav__item">
+                            <a download="" href={CV} className="nav__link" target="_blank">
+                                <i className="uil uil-message nav__icon"></i> RESUME
+                            </a>
+                        </li> */}
+                        <li className="nav__item">
+                            <button style={{backgroundColor:"white"}} className="nav__link" onClick={handleResumeClick}>
+                                <i className="uil uil-message nav__icon"></i> RESUME
+                            </button>
                         </li>
                     </ul>
 
