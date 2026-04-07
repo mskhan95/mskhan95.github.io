@@ -44,11 +44,11 @@
 
 .services__modal{
     position: fixed;
-    height:fit-content;
+    /* height:fit-content; */
     top: 0;
     left: 0;
     right: 0;
-    bottom: -5;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: var(--z-modal);
     display: flex;

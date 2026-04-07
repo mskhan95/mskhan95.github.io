@@ -53,15 +53,24 @@ const Services = ()=>{
                                     </p>
                                 </li>
 
-                                <li className="services__modal-service">
-                                    {/* <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">
-                                        i develop user interface
-                                    </p> */}
+                                <div
+                                    style={{
+                                        display: "flex",
+                                        flexDirection: "row",
+                                        justifyContent:"space-between"
+                                    }}
+                                    >
+                                    <li className="services__modal-service">
                                     <a download="" href='https://serene-bavarois-7356f0.netlify.app/' target="_blank" className="button button-flex">
                                         Visit website
                                     </a>
-                                </li>
+                                    </li>
+                                     <li className="services__modal-service">
+                                    <a download="" href='https://github.com/mskhan95/KFC-clone' target="_blank" className="button button-flex">
+                                        Visit Github
+                                    </a>
+                                    </li>
+                                </div>
 
                                 {/* <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
@@ -105,7 +114,7 @@ const Services = ()=>{
 
                             <p className="services__modal-description">Dineout is a Online platform to Book Online Resturents </p>
 
-                            <ul className="services__modal-services grid">
+                            <ul className="services__modal-services grid" style={{justifyContent:"normal"}}>
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
@@ -120,11 +129,30 @@ const Services = ()=>{
                                     </p>
                                 </li>
 
+                                {/* <li className="services__modal-service">
+                                    <a download="" href='https://reliable-tulumba-cdf387.netlify.app/' target="_blank" className="button button-flex">
+                                        Visit website
+                                    </a>
+                                </li> */}
+
+                                <div
+                                    style={{
+                                        display: "flex",
+                                        flexDirection: "row",
+                                        justifyContent:"space-between"
+                                    }}
+                                    >
                                 <li className="services__modal-service">
                                     <a download="" href='https://reliable-tulumba-cdf387.netlify.app/' target="_blank" className="button button-flex">
                                         Visit website
                                     </a>
                                 </li>
+                                     <li className="services__modal-service">
+                                    <a download="" href='https://github.com/mskhan95/dineout_website_clone' target="_blank" className="button button-flex">
+                                        Visit Github
+                                    </a>
+                                    </li>
+                                </div>
 
                                 
                             </ul>
@@ -171,11 +199,30 @@ const Services = ()=>{
                                     </p>
                                 </li>
 
-                                <li className="services__modal-service">
+                                {/* <li className="services__modal-service">
                                     <a download="" href='https://cheery-klepon-becbe0.netlify.app/' target="_blank" className="button button-flex">
                                         Visit website
                                     </a>
-                                </li>
+                                </li> */}
+
+                                <div
+                                    style={{
+                                        display: "flex",
+                                        flexDirection: "row",
+                                        justifyContent:"space-between"
+                                    }}
+                                    >
+                                    <li className="services__modal-service">
+                                    <a download="" href='https://cheery-klepon-becbe0.netlify.app/' target="_blank" className="button button-flex">
+                                        Visit website
+                                    </a>
+                                    </li>
+                                     <li className="services__modal-service">
+                                    <a download="" href='https://github.com/vishwajeet-7/Bewakoof.com-clone' target="_blank" className="button button-flex">
+                                        Visit Github
+                                    </a>
+                                    </li>
+                                </div>
 
                             </ul>
                         </div>
